@@ -2,6 +2,12 @@ name = "tamu-flower-form"
 compatibility_date = "2024-09-08"
 # compatibility_flags = [ "nodejs_compat" ]
 
+[vars]
+DISCORD_PUBLIC_KEY = ""
+
+[env.staging.vars]
+DISCORD_PUBLIC_KEY = ""
+
 # [vars]
 # MY_VAR = "my-variable"
 

@@ -5,7 +5,8 @@
     "dev": "wrangler dev src/index.ts",
     "deploy": "wrangler deploy --minify src/index.ts",
     "prepare": "ts-patch install && typia patch",
-    "typia:generate": "typia generate --input src/templates --output src/generated --project tsconfig.json"
+    "typia:generate": "typia generate --input src/templates --output src/generated --project tsconfig.json",
+    "cf:typegen": "wrangler types"
   },
   "packageManager": "pnpm@9.8.0",
   "engines": {
