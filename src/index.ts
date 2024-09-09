@@ -5,8 +5,8 @@ import {
 } from "discord-api-types/v10";
 
 import { honoFactory } from "./factory";
-import { validateDiscordInteraction } from "./generated/discord/interaction";
 import { verifyDiscordInteraction } from "./middleware/discord";
+import { validateDiscordInteraction } from "./typia/generated/discord/interaction";
 
 const app = honoFactory.createApp();
 
